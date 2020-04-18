@@ -1,0 +1,49 @@
+set nocompatible              " required
+filetype off                  " required
+set ignorecase
+set smartcase
+
+call plug#begin('~/.vim/plugged')
+Plug 'Rigellute/shades-of-purple.vim'
+Plug 'ap/vim-css-color'
+Plug 'scrooloose/nerdtree'
+Plug 'Valloric/YouCompleteMe'
+Plug 'vim-syntastic/syntastic'
+Plug 'vim-airline/vim-airline'
+call plug#end()
+"colorscheme
+if (has("termguicolors"))
+ set termguicolors
+endif
+colorscheme shades_of_purple
+" custom setting
+syntax on
+set mouse=a
+set number relativenumber
+set encoding=utf-8
+set backspace=indent,eol,start
+set cursorline
+set guioptions=
+syntax on
+
+" indent for global
+set expandtab
+set shiftwidth=4
+set softtabstop=4
+set autoindent
+
+" indent for special file
+autocmd FileType c,cpp setlocal expandtab shiftwidth=2 softtabstop=2 cindent 
+autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 autoindent
+
+" setup for airline
+let g:airline_section_b = '%{strftime("%a %d. %H:%M")}'
+let g:airline_powerline_fonts = 1
+
+"remove colorscheme background -> use terminal bg
+hi Normal guibg=NONE ctermbg=NONE
+hi NonText ctermbg=none ctermfg=NONE 
+hi EndOfBuffer ctermbg=none
+hi LineNr ctermbg=none
+hi Folded ctermbg=NONE guibg=NONE
+hi SignColumn ctermbg=NONE guibg=NONE
