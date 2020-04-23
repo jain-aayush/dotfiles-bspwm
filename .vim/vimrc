@@ -26,6 +26,10 @@ set cursorline
 set guioptions=
 syntax on
 
+"split settings
+set splitbelow
+set splitright
+
 " indent for global
 set expandtab
 set shiftwidth=4
