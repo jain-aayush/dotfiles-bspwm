@@ -4,18 +4,18 @@ set ignorecase
 set smartcase
 
 call plug#begin('~/.vim/plugged')
-Plug 'Rigellute/shades-of-purple.vim'
 Plug 'ap/vim-css-color'
 Plug 'scrooloose/nerdtree'
 Plug 'Valloric/YouCompleteMe'
 Plug 'vim-syntastic/syntastic'
 Plug 'vim-airline/vim-airline'
+Plug 'sjl/badwolf'
 call plug#end()
 "colorscheme
 if (has("termguicolors"))
  set termguicolors
 endif
-colorscheme shades_of_purple
+colorscheme badwolf
 " custom setting
 syntax on
 set mouse=a
@@ -44,10 +44,6 @@ autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 autoindent
 let g:airline_section_b = '%{strftime("%a %d. %H:%M")}'
 let g:airline_powerline_fonts = 1
 
-"remove colorscheme background -> use terminal bg
+"transparent background
 hi Normal guibg=NONE ctermbg=NONE
-hi NonText ctermbg=none ctermfg=NONE 
-hi EndOfBuffer ctermbg=none
-hi LineNr ctermbg=none
-hi Folded ctermbg=NONE guibg=NONE
-hi SignColumn ctermbg=NONE guibg=NONE
+
