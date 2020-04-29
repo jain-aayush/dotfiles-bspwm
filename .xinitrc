@@ -1,2 +1,4 @@
+numlockx &
+
 exec bspwm
 sxhkd &
