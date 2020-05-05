@@ -86,13 +86,13 @@ tab
 
 .tab-content
 {
-	border-bottom: 2px solid #5388D9 !important;
+	border-bottom: 2px solid #B6793A !important;
 }
 
 .tab-content[selected="true"]
 {
-    background-color: #3F2A14 !important;
-    border-bottom: 2px solid #7BC1CA !important;
+    background-color: #B6793A !important;
+    border-bottom: 3px solid #050302 !important;
     font-weight: regular !important;
     color : #F4F4F4 !important;
 }
