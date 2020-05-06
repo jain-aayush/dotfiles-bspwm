@@ -14,7 +14,7 @@
 */
 body{
 	background: #212121;
-	color: #BBC4C8;
+	color: #212121;
 }
 .container{
 	display: grid;
@@ -55,7 +55,7 @@ body{
 {
 	grid-column: 1/-1;
 	padding-bottom: 25px;
-	background: #262114;
+	background: none;
 	width: 500px;
 	padding: 3px;
 	margin-bottom: 60px;
@@ -71,16 +71,16 @@ li{
 }
 a:link{
 	text-decoration: none;
-	color: #8F9191;
+	color: #97b238;
 }
 a:visited{
-	color: #8F9191;
+	color: #97b238;
 }
 a:hover{
 	color: #827044;
 }
 .category{
-	background: #262114;
+	background: #3d3d3d;
 	padding: 20px;
 	border: #191C1E;
 	border-radius: 3px;
