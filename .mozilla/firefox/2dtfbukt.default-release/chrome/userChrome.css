@@ -15,14 +15,14 @@
 */
 
 /* New Tab Flash */
-:root{--newtab-textbox-background-color:#3F2A14;}
+:root{--newtab-textbox-background-color:#212121;}
 
 #browser vbox#appcontent tabbrowser,
 #content, 
 #tabbrowser-tabpanels,
 browser[type=content-primary],
 browser[type=content] > html{
-    background: #3c3836 !important
+    background: #212121 !important
 }
 
 .tab-line {
@@ -31,8 +31,8 @@ display : none !important;
 
 /* Toolbar buttons */
 .toolbarbutton-1 {
-    fill: #262114 !important;
-    background-color: #3F2A14 !important;
+    fill: #97b238 !important;
+    background-color: #212121 !important;
 }
 
 /* Remove border under navbar */
@@ -50,7 +50,7 @@ display : none !important;
 }
 
 #tabbrowser-tabs {
-background-color: #3F2A14 !important;
+background-color: #212121 !important;
 --tab-min-height: 18px !important;
   margin-left: 0px !important;
   height: 25px !important;
@@ -79,26 +79,26 @@ background-color: #3F2A14 !important;
 tab
 {
 	padding:1px !important;
-    background-color: #3F2A14 !important;
+    background-color: #212121 !important;
     font-weight: thin !important;
-    color : #F4F4F4 !important;
+    color : #827044 !important;
 }
 
 .tab-content
 {
-	border-bottom: 2px solid #B6793A !important;
+	border-bottom: 1px solid #292929 !important;
 }
 
 .tab-content[selected="true"]
 {
-    background-color: #B6793A !important;
-    border-bottom: 3px solid #050302 !important;
+    background-color: #212121 !important;
+    border-bottom: 1px solid #897260 !important;
     font-weight: regular !important;
-    color : #F4F4F4 !important;
+    color : #97b238 !important;
 }
 
 #nav-bar-customization-target {
-	background-color: #3F2A14 !important;
+	background-color: #212121 !important;
 }
 
 
@@ -108,10 +108,10 @@ tab
 
 #urlbar{
 	box-shadow: none !important;
-	background-color: #3F2A14 !important;
-	background: none !important;
+	background-color: #212121 !important;
+	background: #212121 !important;
 	border: none !important;
-	color : #A3AFC1 !important;
+	color : #97b238 !important;
 	font-weight: bold !important;
 }
 /*
