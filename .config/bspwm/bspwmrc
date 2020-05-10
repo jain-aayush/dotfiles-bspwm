@@ -5,6 +5,8 @@ sxhkd &
 killall picom
 picom &
 
+mpd &
+
 bspc monitor eDP-1 -d DEV WWW DOC ETC MEDIA 
 
 #assigning windows to specific workspaces
