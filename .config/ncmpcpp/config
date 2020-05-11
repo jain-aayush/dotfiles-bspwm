@@ -80,12 +80,12 @@ visualizer_sync_interval = 30
 #
 ## Available values: spectrum, wave, wave_filled, ellipse.
 ##
-visualizer_type = "ellipse"
+visualizer_type = "wave_filled"
 #
 
 visualizer_look = "●▮"
 #
-visualizer_color = blue, cyan, green, yellow, magenta, red
+#visualizer_color = blue, cyan, green, yellow, magenta, red
 #
 ## Alternative subset of 256 colors for terminals that support it.
 ##
@@ -509,37 +509,37 @@ visualizer_color = blue, cyan, green, yellow, magenta, red
 ## are used there is a possibility that you'll be able to use only colors with
 ## transparent background.
 #
-colors_enabled = yes
+#colors_enabled = yes
 
-empty_tag_color = red
+#empty_tag_color = red
 
-header_window_color = black
+#header_window_color = black
 
-volume_color = default
+#volume_color = default
 
-state_line_color = black
+#state_line_color = black
 
-state_flags_color = green
+#state_flags_color = green
 
-main_window_color = brown
+#main_window_color = default
 
-color1 = white
+#color1 = white
 
-color2 = green
+#color2 = green
 
-progressbar_color = black:b
+#progressbar_color = black:b
 
-progressbar_elapsed_color = green:b
+#progressbar_elapsed_color = green:b
 
-statusbar_color = blue
+#statusbar_color = blue
 
-statusbar_time_color = default:b
+#statusbar_time_color = default:b
 
-player_state_color = default:b
+#player_state_color = default:b
 
-alternative_ui_separator_color = black:b
+#alternative_ui_separator_color = black:b
 
-window_border_color = green
+#window_border_color = green
 
-active_window_border = red
+#active_window_border = red
 
