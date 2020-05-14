@@ -13,6 +13,8 @@ bspc monitor eDP-1 -d DEV WWW DOC ETC MEDIA
 bspc rule -a firefox desktop=^2 follow=on 
 bspc rule -a kitty desktop=^1 follow=on 
 
+bspc rule -a Zathura state=tiled
+
 bspc config border_width 5
 bspc config window_gap 30
 bspc config top_padding 60
