@@ -148,6 +148,7 @@ toolbarbutton.scrollbutton-down{ background-color: transparent !important;}
   -moz-box-ordinal-group: 1 !important;
 }
 #PersonalToolbar { 
+    background: #212121 !important;
   -moz-box-ordinal-group: 2 !important;
 }
 #titlebar { 
