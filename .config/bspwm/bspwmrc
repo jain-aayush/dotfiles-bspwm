@@ -2,8 +2,8 @@
 
 sxhkd &
 
-killall picom
-picom &
+killall compton 
+compton -C & 
 
 mpd &
 
@@ -35,5 +35,6 @@ bspc config split_ratio 0.52
 bspc config borderless_monocle true
 bspc config gapless_monocle false
 
-feh --bg-center Pictures/Wallpapers/BrownWallpaper.jpg 
+feh --bg-center Pictures/Wallpapers/AoTWall.png
+
 exec $HOME/.config/polybar/launch.sh
