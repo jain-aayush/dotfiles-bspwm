@@ -3,7 +3,7 @@
 sxhkd &
 
 killall compton 
-compton -C & 
+compton & 
 
 mpd &
 
