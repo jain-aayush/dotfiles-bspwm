@@ -5,6 +5,7 @@ sxhkd &
 killall compton 
 compton & 
 
+killall mpd
 mpd &
 
 bspc monitor eDP-1 -d DEV WWW DOC ETC MEDIA 
@@ -18,17 +19,12 @@ bspc rule -a Zathura desktop=^3
 
 bspc config border_width 5
 bspc config window_gap 30
-bspc config top_padding 60
+bspc config top_padding 30
 bspc config left_padding 30
 bspc config right_padding 30
-bspc config border_radius 15
 
-#get xrdb colors
-highlight=$(xrdb -query | grep "*.highlight" | cut -f 2)
-background=$(xrdb -query | grep "*.background-no-transparancy:" | cut -f 2)
-
-bspc config focused_border_color "$highlight"
-bspc config normal_border_color "$background"
+bspc config focused_border_color "#827044"
+bspc config normal_border_color "#212121"
 
 bspc config focus_follows_pointer true
 bspc config split_ratio 0.52
