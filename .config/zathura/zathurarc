@@ -1,5 +1,14 @@
 set selection-clipboard clipboard
 set adjust-open "best-fit"
 
+set page-padding 1
+
 set zoom-min 10
 set guioptions ""
+
+map i recolor
+set recolor true
+
+set default-bg rgba(40,40,40,0)
+set recolor-lightcolor rgba(40,40,40,0)
+set recolor-darkcolor rgba(250,250,250,1)
