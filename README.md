@@ -1,9 +1,10 @@
-DOTFILES FOR BSPWM
+<!-- omit in toc -->
+# DOTFILES FOR BSPWM
 ---
+![setup](Pictures/Setup/Wallpaper&Neofetch.png)
 
+<!-- omit in toc -->
 ## Table of Content
-- [DOTFILES FOR BSPWM](#dotfiles-for-bspwm)
-- [Table of Content](#table-of-content)
 - [System Information](#system-information)
 - [Applications](#applications)
   - [Kitty](#kitty)
@@ -41,7 +42,7 @@ DOTFILES FOR BSPWM
 * Theme : [typewritten](https://github.com/reobin/typewritten)
   
 ### Vim
- <!-- add vim screenshot -->
+![Vim](Pictures/Setup/Vim&Zathura.png)
 * Colourscheme : [badwolf](https://github.com/sjl/badwolf)
 * Plugins :
     1. vim-airline
@@ -52,6 +53,7 @@ DOTFILES FOR BSPWM
     6. vim-surround
 
 ### Firefox
+![firefox](Pictures/Setup/Firefox&Spotify.png)
 * Colourscheme : Inspired From Kaapi Spotify theme
 
 **Derived From**: [Prismatic Night](https://github.com/dbuxy218/Prismatic-Night)
