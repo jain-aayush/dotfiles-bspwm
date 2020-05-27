@@ -14,6 +14,8 @@
   - [Polybar](#polybar)
   - [Spotify](#spotify)
   - [Rofi](#rofi)
+- [Sources Used](#sources-used)
+- [Wallpaper](#wallpaper)
 
 
 ## System Information
@@ -70,3 +72,17 @@
 ### Rofi
 * Theme : [Materia](https://github.com/DefunctLizard/materia-rofi-theme)
 * Font : Fira Code
+
+## Sources Used
+
+This was my very first attempt at ricing and thus, I needed help from a variety of sources. These are the sources that I borrowed heavily from. I based off my work from channel-42's dotfiles and gradualy as I got more comfortable, I started adding my own tweaks. While most the time reading the documentation or the man page or the Arch Wiki helped me, there were still times where I needed some inspiration as well as sources for ricing. Apart from the documentation of the vaious packagaes, these are the sources that helped me a lot.  
+
+* BSPWM - https://github.com/channel-42/dotfiles
+* BSPWM - https://github.com/LnLcFlx/dotfiles
+* POLYBAR - https://github.com/adi1090x/polybar-themes
+* POLYBAR - https://github.com/Jvanrhijn/polybar-spotify
+* FIREFOX - https://github.com/dbuxy218/Prismatic-Night  
+
+## Wallpaper
+
+[Attack on Titan Wallpapaer](https://images4.alphacoders.com/607/607866.png)
