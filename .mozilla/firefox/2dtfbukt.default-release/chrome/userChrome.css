@@ -169,7 +169,7 @@ toolbarbutton.scrollbutton-down{ background-color: transparent !important;}
 
 
 /*Hide tabs bar if one tab is opened*/
-/*
+
 #tabbrowser-tabs, #tabbrowser-tabs > .tabbrowser-arrowscrollbox {
   min-height: 0 !important;
 }
@@ -181,7 +181,7 @@ toolbarbutton.scrollbutton-down{ background-color: transparent !important;}
 #tabbrowser-tabs #tabs-newtab-button {
   visibility: collapse !important;
 }
-*/
+
 
 /* FAVICONS Color */
 /* Default */
