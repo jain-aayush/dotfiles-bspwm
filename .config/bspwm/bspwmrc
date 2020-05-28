@@ -12,7 +12,7 @@ bspc monitor eDP-1 -d DEV WWW DOC ETC MEDIA
 
 #assigning windows to specific workspaces
 bspc rule -a firefox desktop=^2 follow=on 
-bspc rule -a kitty desktop=^1
+bspc rule -a code-oss desktop=^1
 bspc rule -a Spotify desktop=^5
 bspc rule -a Zathura state=tiled
 bspc rule -a Zathura desktop=^3
