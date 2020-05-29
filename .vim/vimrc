@@ -10,6 +10,7 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'vim-syntastic/syntastic'
 Plug 'vim-airline/vim-airline'
 Plug 'sjl/badwolf'
+Plug 'tpope/vim-surround'
 call plug#end()
 "colorscheme
 if (has("termguicolors"))
@@ -48,4 +49,6 @@ hi Normal guibg=NONE ctermbg=NONE
 hi NonText guibg=NONE ctermbg=NONE
 
 "badwolf settings
-let g:badwolf_darkgutter = 1
+let g:badwolf_darkgutter=1
+"NERDTree settings
+let NERDTreeShowHidden=1
