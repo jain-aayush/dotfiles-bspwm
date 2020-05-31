@@ -130,3 +130,6 @@ super + {Left,Down,Up,Right}
 
 Print
     scrot ~/Pictures/Screenshots/%Y-%m-%d-%T-screenshot.png
+
+super + n
+    /home/aayush/Documents/Files/Obsidian/Obsidian-0.6.4.AppImage &
