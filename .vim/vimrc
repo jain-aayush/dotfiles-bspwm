@@ -10,15 +10,19 @@ Plug 'Valloric/YouCompleteMe'
 Plug 'vim-syntastic/syntastic'
 Plug 'vim-airline/vim-airline'
 Plug 'sjl/badwolf'
+Plug 'joshdick/onedark.vim'
 Plug 'tpope/vim-surround'
 call plug#end()
+
 "colorscheme
 if (has("termguicolors"))
  set termguicolors
 endif
-colorscheme badwolf
-" custom setting
+let g:onedark_hide_endofbuffer=1
+let g:onedark_terminal_italics=1
 syntax on
+colorscheme onedark 
+" custom setting
 set mouse=a
 set number relativenumber
 set encoding=utf-8
@@ -41,14 +45,12 @@ autocmd FileType c,cpp setlocal expandtab shiftwidth=2 softtabstop=2 cindent
 autocmd FileType python setlocal expandtab shiftwidth=4 softtabstop=4 autoindent
 
 " setup for airline
+let g:airline_theme='onedark'
 let g:airline_section_b = '%{strftime("%a %d. %H:%M")}'
 let g:airline_powerline_fonts = 1
 
-"transparent background
-hi Normal guibg=NONE ctermbg=NONE
-hi NonText guibg=NONE ctermbg=NONE
-
-"badwolf settings
-let g:badwolf_darkgutter=1
 "NERDTree settings
 let NERDTreeShowHidden=1
+
+"Disable background erase so that vim works properly with color schemes
+set t_ut= 
