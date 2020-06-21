@@ -9,7 +9,6 @@ Plug 'scrooloose/nerdtree'
 Plug 'Valloric/YouCompleteMe'
 Plug 'vim-syntastic/syntastic'
 Plug 'vim-airline/vim-airline'
-Plug 'sjl/badwolf'
 Plug 'joshdick/onedark.vim'
 Plug 'tpope/vim-surround'
 call plug#end()
