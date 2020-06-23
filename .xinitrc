@@ -1,4 +1,3 @@
 numlockx &
 
 exec bspwm
-sxhkd &
