@@ -11,7 +11,11 @@ Plug 'vim-syntastic/syntastic'
 Plug 'vim-airline/vim-airline'
 Plug 'joshdick/onedark.vim'
 Plug 'tpope/vim-surround'
+Plug 'Xuyuanp/nerdtree-git-plugin'
 call plug#end()
+
+"custom keybinding
+map <C-n> :NERDTreeToggle<CR>
 
 "colorscheme
 if (has("termguicolors"))
